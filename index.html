@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Developer - Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      padding: 60px 50px;
+      max-width: 700px;
+      width: 100%;
+      animation: slideIn 0.6s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      border-bottom: 3px solid #667eea;
+      padding-bottom: 20px;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    h2 {
+      color: #667eea;
+      font-size: 1.3em;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+
+    .about {
+      color: #555;
+      font-size: 1.05em;
+      line-height: 1.8;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+
+    .git-section {
+      background: #f8f9fa;
+      border-left: 5px solid #764ba2;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 30px;
+    }
+
+    .git-section h3 {
+      color: #764ba2;
+      margin-bottom: 15px;
+      font-size: 1.1em;
+    }
+
+    .git-details {
+      font-family: 'Courier New', monospace;
+      font-size: 0.9em;
+      color: #333;
+      line-height: 1.8;
+    }
+
+    .git-details p {
+      margin: 8px 0;
+      color: #666;
+    }
+
+    .status {
+      background: #d4edda;
+      border: 1px solid #c3e6cb;
+      color: #155724;
+      padding: 12px 15px;
+      border-radius: 6px;
+      margin-top: 20px;
+      font-weight: 600;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #999;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 40px 25px;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+
+      h2 {
+        font-size: 1.1em;
+      }
+
+      .about {
+        font-size: 0.95em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Nagaraj Kammisetty</h1>
+      <h2>Frontend Developer</h2>
+    </div>
+
+    <div class="about">
+      <p>
+        Hello! I'm a passionate frontend developer with a strong commitment to creating beautiful, 
+        responsive, and user-friendly web applications. With expertise in HTML, CSS, and JavaScript, 
+        I specialize in transforming design concepts into functional and interactive digital experiences. 
+        I'm dedicated to writing clean, maintainable code and staying updated with the latest web technologies. 
+        Excited to join the team and contribute to innovative projects!
+      </p>
+    </div>
+
+    
+
+   
+
+    <div class="footer">
+      <p>Experiment 1: Project Initialization and First Commit</p>
+    </div>
+  </div>
+</body>
+</html>
